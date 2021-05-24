@@ -7,14 +7,25 @@
 </ion-header>
 
 <ion-content [fullscreen]="true" color="dark">
-  <ion-item class="cardapio">
+
+  <ion-searchbar placeholder="Buscar Pizzas"></ion-searchbar>
+
+  <ion-item class="cardapio" lines="none">
     <ion-thumbnail slot="start">
       <img src="https://www.anamariabrogui.com.br/assets/uploads/receitas/fotos/usuario-1932-5a1b7911dfda6e3c351c30de564da267.jpg">
     </ion-thumbnail>
     <ion-label>
-      <h3>Pizza Mussarela</h3>
+      <div class="item-pizza ion-text-wrap">
+      <h3>Mussarela</h3>
       <p>Molho de Tomate e Queijo Mussarela</p>
+      </div>
     </ion-label>
+    <ion-badge slot="end" color="success">
+      <div class="item-preco">
+        <p class="moeda">R$</p>
+        <p class="preco">20,00</p>
+      </div>
+    </ion-badge>
   </ion-item>
 
   <ion-item class="cardapio">
@@ -22,8 +33,10 @@
       <img src="https://static.clubedaanamariabraga.com.br/wp-content/uploads/2019/02/pizza-de-frango-com-catupiry-18845.jpg">
     </ion-thumbnail>
     <ion-label>
-      <h3>Pizza Frango c/ Catupiry</h3>
+      <div class="item-pizza ion-text-wrap">
+      <h3>Frango c/ Catupiry</h3>
       <p>Molho de Tomate, queijo mussarela, peito de frango e catupiry</p>
+      </div>
     </ion-label>
   </ion-item>
 
@@ -32,8 +45,10 @@
       <img src="https://static.clubedaanamariabraga.com.br/wp-content/uploads/2020/08/pizza-margherita.jpg">
     </ion-thumbnail>
     <ion-label>
-      <h3>Pizza Margurita</h3>
+      <div class="item-pizza ion-text-wrap">
+      <h3>Marguerita</h3>
       <p>Molho de tomate, queijo mussarela, tomate fresco, alho e manjericão</p>
+        </div>
     </ion-label>
   </ion-item>
 
@@ -42,8 +57,10 @@
       <img src="https://www.receiteria.com.br/wp-content/uploads/receitas-de-pizza-de-lombo-1-730x449.jpg">
     </ion-thumbnail>
     <ion-label>
-      <h3>Pizza Lombo Canadense</h3>
+      <div class="item-pizza ion-text-wrap">
+      <h3>Lombo Canadense</h3>
       <p>Molho de Tomate, queijo mussarela e lombo canadense</p>
+      </div>
     </ion-label>
   </ion-item>
 
@@ -52,8 +69,10 @@
       <img src="https://img.itdg.com.br/images/recipes/000/086/281/291971/291971_original.jpg">
     </ion-thumbnail>
     <ion-label>
-      <h3>Pizza Bacon</h3>
+      <div class="item-pizza ion-text-wrap">
+      <h3>Bacon</h3>
       <p>Molho de tomate, queijo mussarela e bacon</p>
+      </div>
     </ion-label>
   </ion-item>
 
@@ -62,8 +81,10 @@
       <img src="https://coolicias.ao/wp-content/uploads/2019/10/Pizza-deliciosa-Portuguesa-muito-F%C3%A1cil.jpg">
     </ion-thumbnail>
     <ion-label>
-      <h3>Pizza Portuguesa</h3>
+      <div class="item-pizza ion-text-wrap">
+      <h3>Portuguesa</h3>
       <p>Molho de tomate, queijo mussarela, presunto, ovos, tomate, azeitonas pretas e champingnon</p>
+      </div>
     </ion-label>
   </ion-item>
 
